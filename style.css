@@ -1,0 +1,436 @@
+:root {
+    --bul: #f1f3f4;
+    --line: rgb(236, 232, 232);
+}
+
+html {
+    font-size: 0.85rem;
+}
+
+i {
+    color: #767676
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.one a {
+    display: flex;
+}
+
+/* =====side nav ==== */
+.navbar {
+    height: 100vh;
+    width: 23%;
+    min-width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav1 {
+    height: 5vh;
+    padding: 1em 2em 0.3em 1.5em;
+    border-bottom: 1px solid var(--line);
+}
+
+.nav1 i {
+    margin-right: 1em;
+    font-size: 1.2rem;
+}
+
+.nav1 i:hover {
+    background-color: var(--bul);
+}
+
+.nav2 {
+    height: 5vh;
+    margin: 1em 3em 1em 0.5em;
+}
+
+button {
+    outline: transparent;
+    border-radius: 30px;
+    padding: 0.5em 2.8em 0.5em 0.5em;
+    font-size: 0.9rem;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0.7px 1.2px 2px rgba(0, 0, 0, 0.7),
+        0px -0.2px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.3),
+        0px -1.2px 2.5px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.nav3 {
+    height: 20vh;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.nav3 ul {
+    padding: 0;
+}
+
+.nav3 ul li {
+    padding: 0 0 0.7em 1.8em;
+}
+
+.nav3 ul li span {
+    margin-left: 6em;
+}
+
+.nav3 ul li:hover {
+    width: 50%;
+    background-color: var(--bul);
+    border-radius: 30px;
+}
+
+.nav3 ul a {
+    font-size: 1rem;
+    color: #767676;
+}
+
+.nav3 ul i {
+    font-size: 1.2rem;
+    margin-right: 1em;
+}
+
+.nav4 {
+    padding-left: 0;
+    height: 10vh;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin: 1.8em;
+}
+
+.nav4 a {
+    color: #000;
+}
+
+.nav4 li {
+    padding: 0.4em 0;
+}
+
+.nav4 li:hover {
+    background-color: var(--bul);
+    border-radius: 30px;
+}
+
+.nav4 li i {
+    margin-right: 1em;
+}
+
+.nav5 {
+    /* width: 20%; */
+    height: 10vh;
+    margin: 0 1.8em;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.nav5 img {
+    margin-right: 0.3em;
+    border-radius: 50%;
+}
+
+.nav5 a {
+    color: #000;
+}
+
+.nav5 span {
+    color: #767676;
+    font-size: 1.5rem;
+    margin-left: 3em;
+}
+
+.nav6 {
+    height: 30vh;
+    padding: 12em 5em;
+}
+
+.nav6 p,
+a {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.nav6 a {
+    color: blue;
+}
+
+.nav7 {
+    height: 5vh;
+}
+
+/* =======header top======== */
+.header-top {
+    width: 85%;
+    position: fixed;
+    left: 17em;
+    display: flex;
+    z-index: 1;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.header-top .search input {
+    width: 49em;
+    padding: 0.5em;
+    margin: 0;
+    height: 2.6em;
+    border: none;
+    outline: transparent;
+    border-radius: 5px;
+    background-color: var(--bul);
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+}
+
+.search .fa-sort-down {
+    position: absolute;
+    right: 62em;
+    top: 1.2em;
+}
+
+.account img {
+    border-radius: 50%;
+}
+
+.all {
+    display: flex;
+    margin-left: 51.5em;
+}
+
+.all i {
+    font-size: 1.5rem;
+}
+
+.all i:hover {
+    background-color: var(--bul);
+}
+
+.question,
+.settings,
+.apps,
+.account {
+    padding: 1em 1em 0 0em;
+}
+
+/* =========hearder top========== */
+
+
+/* =======Header second========= */
+.header-second {
+    display: flex;
+    position: fixed;
+    top: 5.5em;
+    left: 17em;
+    z-index: 2;
+    border-bottom: 1px solid rgb(216, 216, 216);
+
+}
+
+.header-second .checkbox,
+.refresh,
+.more {
+    padding-right: 1em;
+}
+
+.header-second .numbers {
+    display: flex;
+    margin: -1em 0 0 90em;
+    font-size: 0.9rem;
+    color: #767676;
+}
+
+.header-second .numbers p a {
+    padding: 1em;
+}
+
+.header-second a i {
+    padding: 0.5em;
+}
+
+.header-second a i:hover {
+    background-color: var(--bul);
+    border-radius: 50%;
+}
+
+/* =======Header second========= */
+
+
+/* =======Aside========= */
+aside {
+    position: fixed;
+    top: 4.5em;
+    left: 96.5%;
+}
+
+/* =======Aside========= */
+
+
+
+/* =======Top========== */
+.top {
+    width: 83.15%;
+    position: absolute;
+    left: 17em;
+    top: 8em;
+    display: flex;
+}
+
+.top a {
+    padding: 1em;
+    color: #767676;
+}
+
+
+.main-top i {
+    margin-right: 1.2em;
+    font-size: 1.15rem;
+}
+
+.main-top {
+    padding: 1em 8em 1em 0;
+}
+
+.main-top:hover {
+    background-color: var(--bul);
+}
+
+/* =======Top========== */
+
+
+
+/* ========center========== */
+.center {
+    width: 83.18%;
+    height: 715px;
+    position: absolute;
+    left: 17em;
+    top: 10.5em;
+    background-color: var(--bul);
+    overflow: auto;
+}
+
+
+.one .more-icons {
+    margin-right: 2.5em;
+    float: right;
+}
+
+.one .more-icons i {
+    font-size: 1.15rem;
+    padding: 0 0.5em 0;
+}
+
+
+/* ******important hove******* */
+.one .more-icons {
+    display: none;
+}
+
+.one:hover .more-icons {
+    display: inline-block;
+}
+
+.one .more-icons i:hover {
+    color: #000;
+}
+
+/* ******important hove******* */
+.one {
+    padding: 0.85em;
+    border-bottom: 1px solid rgb(223, 220, 220);
+}
+
+.one:hover {
+    box-shadow: 0 1.5px 4.5px rgba(0, 0, 0, 0.3);
+}
+
+.one a {
+    width: 100%;
+    color: #767676;
+}
+
+
+.one .msg {
+    width: 100%;
+}
+
+.one .fa-square {
+    margin-right: 1em;
+}
+
+.one .fa-square:hover {
+    color: #000;
+}
+
+.one .fa-star {
+    margin-right: 1em;
+}
+
+.one .fa-star:hover {
+    color: #000;
+}
+
+.one .from {
+    width: 18%
+}
+
+.one .date {
+    width: 6%;
+}
+
+.two {
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.two .from,
+.msg {
+    color: #000;
+}
+
+/* ========center========== */
+
+
+
+/* =======footer============= */
+.center footer {
+    background-color: #fff;
+    color: #767676;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.center footer p {
+    margin: 0;
+}
+
+.center footer a {
+    padding: 0 0.5em;
+    color: #767676;
+}
+
+.center footer a:hover {
+    text-decoration: underline;
+}
+
+/* =======footer============= */
